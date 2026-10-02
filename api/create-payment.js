@@ -25,7 +25,7 @@ export default async function handler(req, res) {
     const bvn = process.env.REGISTRATION_NUMBER;
 
     const response = await fetch(
-      "https://mevonpay.com.ng/V1/createtempva",
+      "https://mevonpay.com.ng/V1/create_tem_va",
       {
         method: "POST",
         headers: {
